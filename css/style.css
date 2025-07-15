@@ -7,17 +7,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color :#222224;
 }
 
 .container {
-    background-color: #2f3136;
+    background-color: rgba(47, 49, 54, 0.7);
     height: 500px;
     width: 450px;
     display: flex;
     justify-content: center;
     color: white;
     border-radius: 15px;
+    cursor: default;
+    box-shadow: 4px 6px 6px rgba(47, 49, 54, 0.7);
 }
 
 .image {
@@ -27,7 +29,7 @@ body {
 
 img {
     height: 100px;
-    border: 2px solid rgb(194, 178, 186);
+    border: 2px solid  #4b4c53;
     border-radius: 100%;  
 }
 
@@ -60,7 +62,7 @@ img {
 
 button {
     border: 1px;
-    background-color: rgb(77, 32, 201);
+    background-color: #5c63f7;
     border-radius: 12px;
     width: 300px;
     height: 50px;
@@ -72,17 +74,23 @@ button {
 
 button:hover {
     transform: scale(1.01);
-}
-
-p {
-    color:#666;
+    background-color: #6266b4;
 }
 
 i {
-    color:#666;
+    color: #5c63f7;
     transition: color 0.4 ease;
 }
 
 i:hover {
-    color:#b3a7a7;
+    color:#6266b4;
+}
+
+
+.footer {
+    padding: 10px;
+}
+
+p {
+    color:#666;
 }
